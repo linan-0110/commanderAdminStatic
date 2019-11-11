@@ -62,7 +62,7 @@ myAgreement ==>> 我的协议
 项目完结 加
 自动生成目录结构教程（https://juejin.im/post/5dc1340e6fb9a04abf552b40）
 
-|-- undefined
+|-- commanderAdminStatic
     |-- .babelrc
     |-- .editorconfig
     |-- .eslintignore
