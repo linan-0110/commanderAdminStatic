@@ -30,10 +30,12 @@ export default {
         no_consent() {
             console.log("不同意");
         },
+        
         /* 同意 */
         consent() {
             console.log("同意");
         },
+
         /* 返回 */
         linkBack() {
             this.$router.back();
