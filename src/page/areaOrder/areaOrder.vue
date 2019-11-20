@@ -89,6 +89,7 @@
 
 <script>
 import dateTiemPicker from "@/components/dateTiemPicker/dateTiemPicker";
+import md5 from "md5"
 export default {
     name: "areaOrder",
     data() {
@@ -106,7 +107,11 @@ export default {
         linkBack() {
             this.$router.back();
         }
-    }
+    },
+    
+    created() {
+    },
+    
 };
 </script>
 
