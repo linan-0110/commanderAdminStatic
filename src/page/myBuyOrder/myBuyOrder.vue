@@ -85,6 +85,7 @@ export default {
         };
     },
     methods: {
+
         /* 顶部tab点击事件 */
         clickTopTab(name) {
             console.log(name);
