@@ -146,7 +146,6 @@ export default {
                 name: "home_myAgreement"
             })
         },
-        
     }
 };
 </script>
