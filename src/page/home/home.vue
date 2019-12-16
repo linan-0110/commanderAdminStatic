@@ -96,60 +96,60 @@ export default {
         linkMyAccount() {
             this.$router.push({
                 name: "home_myAccount"
-            })
+            });
         },
 
         /* 跳转 资产明细 */
         linkAssetDetails() {
             this.$router.push({
                 name: "home_assetDetails"
-            })
+            });
         },
 
         /* 跳转 整体状况 */
         linkFullStatus() {
             this.$router.push({
                 name: "home_fullStatus"
-            })
+            });
         },
 
         /* 跳转 小区订单 */
         linkAreaOrder() {
             this.$router.push({
                 name: "home_areaOrder"
-            })
+            });
         },
-        
+
         /* 跳转 订单配送 */
         linkOrderExpress() {
             this.$router.push({
                 name: "home_orderExpress"
-            })
+            });
         },
         /* 跳转 顾客提货 */
         linkClientGetCargo() {
             this.$router.push({
                 name: "home_clientGetCargo"
-            })
+            });
         },
         /* 跳转 我的购买订单 */
         linkMyBuyOrder() {
             this.$router.push({
                 name: "home_myBuyOrder"
-            })
+            });
         },
         /* 跳转 优惠劵 */
         linkDiscountCoupon() {
             this.$router.push({
                 name: "home_discountCoupon"
-            })
+            });
         },
         /* 跳转 我的协议 */
         linkMyAgreement() {
             this.$router.push({
                 name: "home_myAgreement"
-            })
-        },
+            });
+        }
     }
 };
 </script>
