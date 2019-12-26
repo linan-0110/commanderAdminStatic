@@ -98,20 +98,19 @@ export default {
                 name: "home_myAccount"
             });
         },
-        
         /* 跳转 资产明细 */
         linkAssetDetails() {
             this.$router.push({
                 name: "home_assetDetails"
             });
         },
-
         /* 跳转 整体状况 */
         linkFullStatus() {
             this.$router.push({
                 name: "home_fullStatus"
             });
         },
+        
         /* 跳转 小区订单 */
         linkAreaOrder() {
             this.$router.push({
