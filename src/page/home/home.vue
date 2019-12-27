@@ -98,6 +98,7 @@ export default {
                 name: "home_myAccount"
             });
         },
+
         /* 跳转 资产明细 */
         linkAssetDetails() {
             this.$router.push({
@@ -110,7 +111,6 @@ export default {
                 name: "home_fullStatus"
             });
         },
-        
         /* 跳转 小区订单 */
         linkAreaOrder() {
             this.$router.push({
@@ -123,6 +123,7 @@ export default {
                 name: "home_orderExpress"
             });
         },
+        
         /* 跳转 顾客提货 */
         linkClientGetCargo() {
             this.$router.push({
