@@ -104,7 +104,6 @@ export default {
                 name: "home_assetDetails"
             });
         },
-        
         /* 跳转 整体状况 */
         linkFullStatus() {
             this.$router.push({
