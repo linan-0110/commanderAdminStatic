@@ -99,7 +99,6 @@ export default {
             });
         },
         /* 跳转 资产明细 */
-        
         linkAssetDetails() {
             this.$router.push({
                 name: "home_assetDetails"
