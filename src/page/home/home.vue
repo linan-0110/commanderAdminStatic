@@ -128,7 +128,6 @@ export default {
                 name: "home_clientGetCargo"
             });
         },
-        
         /* 跳转 我的购买订单 */
         linkMyBuyOrder() {
             this.$router.push({
