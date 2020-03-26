@@ -116,13 +116,14 @@ export default {
                 name: "home_areaOrder"
             });
         },
+        
         /* 跳转 订单配送 */
         linkOrderExpress() {
             this.$router.push({
                 name: "home_orderExpress"
             });
         },
-        
+
         /* 跳转 顾客提货 */
         linkClientGetCargo() {
             this.$router.push({
