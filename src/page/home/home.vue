@@ -98,6 +98,7 @@ export default {
                 name: "home_myAccount"
             });
         },
+        
         /* 跳转 资产明细 */
         linkAssetDetails() {
             this.$router.push({
