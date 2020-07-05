@@ -110,7 +110,6 @@ export default {
                 name: "home_fullStatus"
             });
         },
-        
         /* 跳转 小区订单 */
         linkAreaOrder() {
             this.$router.push({
